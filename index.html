@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan HTML</title>
+  </head>
+  <body>
+    <h1>Profil Saya</h1>
+    <img src="images.jpeg" alt="Pemandangan" />
+    <p>
+      Selamat datang di halaman profil saya. Saya adalah seorang web developer
+      yang sedang belajar dan berkembang.
+    </p>
+    <h2>Pendidikan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tingkat</th>
+          <th>Instansi</th>
+          <th>Jurusan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>S1</td>
+          <td>Universitas XYZ</td>
+          <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+          <td>SMA</td>
+          <td>SMAN 123</td>
+          <td>IPA</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Portofolio</h2>
+    <ol>
+      <li>Website Perusahaan ABC</li>
+      <li>Aplikasi Mobile XYZ</li>
+    </ol>
+    <a href="porto.html">Lihat detail protofolio</a>
+    <form action="#">
+      <h2>Kontak</h2>
+      <div>
+        <label for="username">Nama: </label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="message">Pesan: </label>
+        <textarea
+          name="message"
+          id="message"
+          cols="20"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+      <div>
+        <label for="category">Kategori: </label>
+        <select name="category" id="category" required>
+          <option value="umum">Umum</option>
+          <option value="private">Private</option>
+        </select>
+      </div>
+      <div>
+        <br />
+        <label for="gender">Pilih Jenis Kelamin: </label>
+        <br />
+        <br />
+        <div>
+          <label for="laki-laki">Laki-Laki </label>
+          <input type="radio" name="gender" id="laki-laki" value="laki-laki" />
+        </div>
+        <div>
+          <label for="perempuan">Perempuan </label>
+          <input type="radio" name="gender" id="perempuan" value="perempuan" />
+        </div>
+      </div>
+      <div>
+        <br />
+        <label for="language">Pilih Bahasa Pemrograman Favorit: </label>
+        <br />
+        <br />
+        <div>
+          <label for="java">Java </label>
+          <input type="checkbox" name="language" id="java" value="java" />
+          <label for="python">Python </label>
+          <input type="checkbox" name="language" id="python" value="python" />
+          <label for="javascript">JavaScript </label>
+          <input
+            type="checkbox"
+            name="language"
+            id="javascript"
+            value="javascript"
+          />
+        </div>
+      </div>
+      <div>
+        <button>Kirim Pesan</button>
+      </div>
+    </form>
+    <footer>
+      <hr />
+      <div>
+        <p>&copy; 2024 Profil Saya | <a href="#">LinkedIn</a></p>
+      </div>
+      <hr />
+    </footer>
+  </body>
+</html>
